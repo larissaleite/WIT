@@ -1,0 +1,78 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url('images/back3.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ /* background: rgba(0,0,0,0.65);*/
+
+
+}
+
+.container {
+	margin-top:10rem;
+}
+
+.navbar-default {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5rem;
+	/*background-color: transparent;*/
+	border: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;
+	border-bottom: 5px solid #E47297;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #E47297;
+}
+
+#historia {
+	text-align: justify;
+}
+
+#content {
+	padding-bottom: 5rem;
+	border-bottom: 1px solid #eee;
+	height: 40rem;
+	text-align: center;
+	color:#E47297;
+}
+
+#logo-principal {
+	margin-bottom: 10rem;
+}
+
+#meninas-digitais {
+	width: 50%;
+}
+
+#footer {
+	margin-top:3rem;
+}
+
+#apoio {
+	text-align: center;
+}
+
+#apoio > h4 {
+	text-align: center;
+}
+
+#apoio > #sbc-logo {
+	width: 10%;
+	margin-right: 5rem;
+}
+
+#apoio > #sch-logo {
+	width: 30%;
+}
+
+#footer {
+	margin-bottom: 5rem;
+}
